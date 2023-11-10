@@ -1,0 +1,13 @@
+{
+    "textHomeBalance" : "Current Wallet Balance",
+    "textHomeSend" : "Send",
+    "textHomeBuy" : "Buy",
+    "textHomeReceive" : "Receive",
+    "textHomeTokens" : "Tokens",
+    "textHomeNFTs" : "NFTs",
+    "textHomeHome" : "Home",
+    "textHomeWallet" : "Wallet",
+    "textHomeSwap" : "Swap",
+    "textHomeMarket" : "Market",
+    "textHomeProfile" : "Profile"
+}
