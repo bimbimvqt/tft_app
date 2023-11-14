@@ -7,7 +7,7 @@ class RatingStars extends StatefulWidget {
   final double size;
   final ValueChanged<double>? onRatingChanged;
 
-  RatingStars({
+  const RatingStars({
     required this.starCount,
     required this.rating,
     this.color = Colors.orange,

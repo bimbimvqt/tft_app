@@ -14,7 +14,7 @@ class ShowWidget extends StatefulWidget {
 
   final AxisDirection direction;
 
-  ShowWidget(
+  const ShowWidget(
       {required this.child,
       this.delay,
       this.hasSlideTransition = true,
@@ -85,8 +85,8 @@ class _ShowWidgetState extends State<ShowWidget> with TickerProviderStateMixin {
   Widget build(BuildContext context) {
     if (!widget.hasSlideTransition) {
       return FadeTransition(
-        child: widget.child,
         opacity: _animController!,
+        child: widget.child,
       );
     }
 
@@ -97,11 +97,11 @@ class _ShowWidgetState extends State<ShowWidget> with TickerProviderStateMixin {
       );
     }
     return FadeTransition(
+      opacity: _animController!,
       child: SlideTransition(
         position: _animOffset,
         child: widget.child,
       ),
-      opacity: _animController!,
     );
   }
 }

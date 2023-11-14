@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "65046374503",
+    "project_id": "tft-app-219e1",
+    "storage_bucket": "tft-app-219e1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65046374503:android:48f21a93553a0a870b0cc2",
+        "android_client_info": {
+          "package_name": "com.example.tft_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmJBSJB3BOmilpaR7J2yQzIxrF24u-YP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -23,11 +23,11 @@ class DialogUtils {
         builder: (BuildContext context) {
           return AlertDialog(
             backgroundColor: Theme.of(context).colorScheme.secondary,
-            title: Text("Oops"),
-            content: Text('Email or password may not correct!'),
+            title: const Text("Oops"),
+            content: const Text('Email or password may not correct!'),
             actions: [
               ElevatedButton(
-                child: Text("Ok"),
+                child: const Text("Ok"),
                 onPressed: () {
                   Navigator.of(context).pop();
                 },
