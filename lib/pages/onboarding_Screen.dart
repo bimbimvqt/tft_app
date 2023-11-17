@@ -1,12 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
-import 'package:tft_app/language/language_constants.dart';
-import 'package:tft_app/pages/login_screen.dart';
-import 'package:tft_app/resources/app_assets.dart';
-import 'package:tft_app/resources/text_style.dart';
-import 'package:tft_app/routes/routes_name.dart';
-import 'package:tft_app/widgets/slide.dart';
+
+import '../language/language_constants.dart';
+import '../resources/app_assets.dart';
+import '../resources/text_style.dart';
+import '../routes/routes_name.dart';
+import '../widgets/slide.dart';
+import 'login_screen.dart';
 
 class OnboardingScreen extends StatefulWidget {
   const OnboardingScreen({super.key});

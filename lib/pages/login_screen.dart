@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:tft_app/routes/routes_name.dart';
+
+import '../routes/routes_name.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});

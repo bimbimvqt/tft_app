@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:tft_app/resources/text_style.dart';
+
+import '../resources/text_style.dart';
 
 class Slide extends StatefulWidget {
   const Slide({

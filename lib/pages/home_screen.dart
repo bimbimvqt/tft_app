@@ -3,12 +3,13 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:random_avatar/random_avatar.dart';
-import 'package:tft_app/data/dummy_data/dummy_data.dart';
-import 'package:tft_app/language/language_constants.dart';
-import 'package:tft_app/resources/app_assets.dart';
-import 'package:tft_app/resources/text_style.dart';
-import 'package:tft_app/routes/routes_name.dart';
-import 'package:tft_app/widgets/animation/show_widget.dart';
+
+import '../data/dummy_data/dummy_data.dart';
+import '../language/language_constants.dart';
+import '../resources/app_assets.dart';
+import '../resources/text_style.dart';
+import '../routes/routes_name.dart';
+import '../widgets/animation/show_widget.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});

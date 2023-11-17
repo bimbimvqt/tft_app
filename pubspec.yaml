@@ -1,4 +1,4 @@
-name: tft_app
+name: coin_app
 description: A new Flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -64,16 +64,8 @@ flutter:
   assets:
     - assets/images/
     - assets/raws/
+    - assets/icons/
   # example:
-  fonts:
-    - family: Urbanist
-      fonts:
-        - asset: assets/fonts/Urbanist-Regular.ttf
-          weight: 500
-        - asset: assets/fonts/Urbanist-Medium.ttf
-          weight: 600
-        - asset: assets/fonts/Urbanist-Bold.ttf
-          weight: 700
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf

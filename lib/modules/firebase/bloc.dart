@@ -1,6 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:tft_app/modules/firebase/event.dart';
-import 'package:tft_app/modules/firebase/state.dart';
+
+import 'event.dart';
+import 'state.dart';
 
 class FirebaseBloc extends Bloc<FirebaseEvent, FirebaseState> {
   FirebaseBloc() : super(FirebaseState()) {

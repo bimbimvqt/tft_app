@@ -1,8 +1,9 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:google_sign_in/google_sign_in.dart';
-import 'package:tft_app/modules/auth/event.dart';
-import 'package:tft_app/modules/auth/state.dart';
+
+import 'event.dart';
+import 'state.dart';
 
 class AuthBloc extends Bloc<AuthEvent, AuthState> {
   FirebaseAuth auth = FirebaseAuth.instance;

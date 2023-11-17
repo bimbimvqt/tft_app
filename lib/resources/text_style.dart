@@ -11,7 +11,7 @@ class AppTextStyles {
     TextDecoration? textDecoration,
     BuildContext? context,
   }) =>
-      GoogleFonts.urbanist(
+      GoogleFonts.karla(
           color: color ?? Theme.of(context!).colorScheme.primary,
           fontSize: fontSize ?? 12.sp,
           fontWeight: fontWeight ?? FontWeight.w500,
@@ -25,7 +25,7 @@ class AppTextStyles {
     TextDecoration? textDecoration,
     BuildContext? context,
   }) =>
-      GoogleFonts.urbanist(
+      GoogleFonts.karla(
           color: color ?? Theme.of(context!).colorScheme.primary,
           fontSize: fontSize ?? 14.sp,
           fontWeight: fontWeight ?? FontWeight.w600,
@@ -40,7 +40,7 @@ class AppTextStyles {
     TextDecoration? textDecoration,
     BuildContext? context,
   }) =>
-      GoogleFonts.urbanist(
+      GoogleFonts.karla(
           color: color ?? Theme.of(context!).colorScheme.primary,
           fontSize: fontSize ?? 40.sp,
           fontWeight: fontWeight ?? FontWeight.w600,
