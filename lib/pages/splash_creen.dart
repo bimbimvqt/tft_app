@@ -1,3 +1,4 @@
+import 'package:coin_app/pages/login_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -37,7 +38,7 @@ class _SplashScreenState extends State<SplashScreen> with TickerProviderStateMix
           const Duration(seconds: 2),
           () {
             if (isFirstTime) {
-              Navigator.pushNamedAndRemoveUntil(context, OnboardingScreen.name, (route) => false);
+              Navigator.pushNamedAndRemoveUntil(context, LoginScreen.name, (route) => false);
             } else {
               Navigator.pushNamedAndRemoveUntil(context, MainScreen.name, (route) => false);
             }

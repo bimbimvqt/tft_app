@@ -7,7 +7,7 @@ import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import 'firebase_options.dart';
 import 'language/language_constants.dart';
-import 'modules/auth/bloc.dart';
+import 'modules/auth/auth_bloc.dart';
 import 'pages/splash_creen.dart';
 import 'routes/routes.dart';
 import 'themes/theme_manager.dart';

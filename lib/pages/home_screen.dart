@@ -352,23 +352,21 @@ Widget buildCryptocurrencyRow(
             ),
           ],
         ),
-        SizedBox(
-          width: 20.w,
-        ),
-        SizedBox(
-          height: 50.h,
-          width: 80.w,
-          child: Sparkline(
-            lineColor: percent > 0 ? Colors.lightBlue : Colors.redAccent,
-            lineWidth: 4.0,
-            data: percent > 0 ? data : dataDown,
-            cubicSmoothingFactor: 0.2,
-            useCubicSmoothing: true,
+        SizedBox(width: 20.w,),
+        Expanded(
+          child: SizedBox(
+            height: 50.h,
+            width: 80.w,
+            child: Sparkline(
+              lineColor: percent > 0 ? Colors.lightBlue : Colors.redAccent,
+              lineWidth: 4.0,
+              data: percent > 0 ? data : dataDown,
+              cubicSmoothingFactor: 0.2,
+              useCubicSmoothing: true,
+            ),
           ),
         ),
-        SizedBox(
-          width: 50.w,
-        ),
+        SizedBox(width: 20.w,),
         Column(
           children: [
             Text(

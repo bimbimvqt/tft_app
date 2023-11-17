@@ -64,7 +64,6 @@ flutter:
   assets:
     - assets/images/
     - assets/raws/
-    - assets/icons/
   # example:
   #   - family: Trajan Pro
   #     fonts:
