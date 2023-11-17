@@ -1,11 +1,11 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:persistent_bottom_nav_bar/persistent_tab_view.dart';
-import 'package:tft_app/pages/search_screen.dart';
-import 'package:tft_app/pages/setting_screen.dart';
-import 'package:tft_app/routes/routes_name.dart';
 
+import '../routes/routes_name.dart';
 import 'home_screen.dart';
+import 'search_screen.dart';
+import 'setting_screen.dart';
 
 class MainScreen extends StatefulWidget {
   static const String name = AppRoutes.main;

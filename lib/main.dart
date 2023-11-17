@@ -3,13 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:tft_app/firebase_options.dart';
-import 'package:tft_app/language/language_constants.dart';
-import 'package:tft_app/modules/auth/bloc.dart';
-import 'package:tft_app/pages/splash_creen.dart';
-import 'package:tft_app/routes/routes.dart';
-import 'package:tft_app/themes/theme_manager.dart';
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+
+import 'firebase_options.dart';
+import 'language/language_constants.dart';
+import 'modules/auth/bloc.dart';
+import 'pages/splash_creen.dart';
+import 'routes/routes.dart';
+import 'themes/theme_manager.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();

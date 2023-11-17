@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:tft_app/pages/home_screen.dart';
-import 'package:tft_app/pages/login_screen.dart';
-import 'package:tft_app/pages/main_screen.dart';
-import 'package:tft_app/pages/onboarding_Screen.dart';
+import '../pages/home_screen.dart';
+import '../pages/login_screen.dart';
+import '../pages/main_screen.dart';
+import '../pages/onboarding_Screen.dart';
 
 final Map<String, WidgetBuilder> routes = {
   HomeScreen.name: (context) => const HomeScreen(),

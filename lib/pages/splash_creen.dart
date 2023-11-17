@@ -4,15 +4,15 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:tft_app/modules/firebase/bloc.dart';
-import 'package:tft_app/modules/firebase/event.dart';
-import 'package:tft_app/modules/firebase/state.dart';
-import 'package:tft_app/pages/main_screen.dart';
-import 'package:tft_app/pages/onboarding_Screen.dart';
-import 'package:tft_app/resources/app_assets.dart';
-import 'package:tft_app/resources/text_style.dart';
-import 'package:tft_app/routes/routes_name.dart';
-import 'package:tft_app/widgets/animation/show_widget.dart';
+import '../modules/firebase/bloc.dart';
+import '../modules/firebase/event.dart';
+import '../modules/firebase/state.dart';
+import '../resources/app_assets.dart';
+import '../resources/text_style.dart';
+import '../routes/routes_name.dart';
+import '../widgets/animation/show_widget.dart';
+import 'main_screen.dart';
+import 'onboarding_Screen.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({Key? key}) : super(key: key);
